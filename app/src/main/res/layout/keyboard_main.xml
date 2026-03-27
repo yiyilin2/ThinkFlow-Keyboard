@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:background="#ECEFF1"
+
+    android:orientation="vertical"
+
+    android:paddingBottom="45dp"> <LinearLayout
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:padding="10dp"
+
+    android:background="#FFFFFF">
+
+
+
+    <EditText
+
+        android:id="@+id/et_english_input"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:minHeight="48dp"
+
+        android:maxHeight="120dp"
+
+        android:background="@drawable/edittext_rounded"
+
+        android:hint="Type to translate"
+
+        android:padding="12dp"
+
+        android:textSize="16sp"
+
+        android:textColor="#212121"
+
+        android:gravity="top|left"
+
+        android:inputType="textMultiLine"
+
+        android:scrollbars="vertical"
+
+        android:focusable="false"
+
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <Button style="@style/KeyBtn" android:text="Q" />
+
+        <Button style="@style/KeyBtn" android:text="W" />
+
+        <Button style="@style/KeyBtn" android:text="E" />
+
+        <Button style="@style/KeyBtn" android:text="R" />
+
+        <Button style="@style/KeyBtn" android:text="T" />
+
+        <Button style="@style/KeyBtn" android:text="Y" />
+
+        <Button style="@style/KeyBtn" android:text="U" />
+
+        <Button style="@style/KeyBtn" android:text="I" />
+
+        <Button style="@style/KeyBtn" android:text="O" />
+
+        <Button style="@style/KeyBtn" android:text="P" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp">
+
+        <Button style="@style/KeyBtn" android:text="A" />
+
+        <Button style="@style/KeyBtn" android:text="S" />
+
+        <Button style="@style/KeyBtn" android:text="D" />
+
+        <Button style="@style/KeyBtn" android:text="F" />
+
+        <Button style="@style/KeyBtn" android:text="G" />
+
+        <Button style="@style/KeyBtn" android:text="H" />
+
+        <Button style="@style/KeyBtn" android:text="J" />
+
+        <Button style="@style/KeyBtn" android:text="K" />
+
+        <Button style="@style/KeyBtn" android:text="L" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <Button style="@style/KeyBtn" android:layout_weight="1.2" android:text="⇧" android:id="@+id/btn_shift" />
+
+        <Button style="@style/KeyBtn" android:text="Z" />
+
+        <Button style="@style/KeyBtn" android:text="X" />
+
+        <Button style="@style/KeyBtn" android:text="C" />
+
+        <Button style="@style/KeyBtn" android:text="V" />
+
+        <Button style="@style/KeyBtn" android:text="B" />
+
+        <Button style="@style/KeyBtn" android:text="N" />
+
+        <Button style="@style/KeyBtn" android:text="M" />
+
+        <Button android:id="@+id/btn_backspace" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1.5" android:text="⌫" android:backgroundTint="#CFD8DC" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btn_123"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:layout_weight="1.5"
+
+            android:text="123" />
+
+        <Button style="@style/KeyBtn" android:text="," />
+
+        <Button android:id="@+id/btn_space" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="4" android:text="Space" />
+
+        <Button style="@style/KeyBtn" android:text="." />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
